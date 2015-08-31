@@ -38,6 +38,5 @@ group :test do
 end
 
 group :production do
-  gem 'rails_12factor', require: false
-  gem 'rails_12factor', group: :production
+  gem 'rails_12factor'
 end
