@@ -1,5 +1,6 @@
 source 'https://rubygems.org'
 
+gem 'rails_12factor'
 gem 'rails', '4.2.2'
 gem 'pg'
 
@@ -35,8 +36,4 @@ group :test do
   gem 'shoulda-matchers', require: false
   gem 'simplecov', require: false
   gem 'coveralls', require: false
-end
-
-group :production do
-  gem 'rails_12factor'
 end
