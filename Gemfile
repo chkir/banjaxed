@@ -37,3 +37,7 @@ group :test do
   gem 'simplecov', require: false
   gem 'coveralls', require: false
 end
+
+group :prodection do
+  gem 'rails_12factor'
+end
